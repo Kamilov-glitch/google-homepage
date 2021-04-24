@@ -1,34 +1,84 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
         <style>
             .header {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                position: relative;
+                top: 10px;
             }
             .left-header {
                 display: flex;
                 flex-direction: row;
-                justify-content: ;
+                position: relative;
+                left: 10px;
+            }
+            #about {
+                position:relative;
+                left:10px;
+            }
+            #store {
+                position: relative;
+                left: 25px;
             }
             .right-header {
                 display: flex;
                 flex-direction: row;
+                position: relative;
+                right: 10px;
+            }
+            #gmail {
+                position: relative;
+                right: 30px;
+            }
+            #images {
+                position: relative;
+                right: 25px;
+            }
+            #applications {
+                position: relative;
+                right: 25px;
+            }
+            #sign-up {
+                position: relative;
+                right: 25px;
             }
             .footer {
                 background-color: rgb(242, 242, 242);
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
+                position: relative;
+                top: 42em;
             }
             .left-footer {
                 display: flex;
                 flex-direction: row;
+                padding: 20px 20px 20px 20px;
+                justify-content: space-between;
+                position: relative;
+                left: 10px
             }
             .right-footer {
                 display: flex;
                 flex-direction: row;
+                padding: 20px 20px 20px 20px;
+                position: relative;
+                right: 10px;
+            }
+            .search-bar {
+                position: relative;
+                top: 20em;
+                left: 35em;
+            }
+            .image {
+                position: relative;
+                top: 15em;
+                left:40em;
             }
         </style>
     </head>
@@ -51,7 +101,9 @@
                         <a href="#">Images</a>
                     </div>
                     <div id="applications">
-                        <a href="#">aps</a>
+                        <a href="#"><i class="material-icons">
+                            apps
+                        </i></a>
                     </div>
                     <div id="sign-up">
                         <a href="#">Sign Up</a>
@@ -59,7 +111,7 @@
                 </div>
             </div>
         </header>
-        <div class="img">
+        <div class="image">
             <img alt="An image of Google, which is the word google with colors" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
         <div class="search-bar">
