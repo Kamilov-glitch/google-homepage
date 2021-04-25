@@ -7,7 +7,7 @@
             html {
                 color: rgb(34, 34, 34)
                 font-family: arial, sans-serif;
-                font-size: 18px;
+                font-size: 13px;
             }
             .header {
                 display: flex;
@@ -38,22 +38,25 @@
             }
             #gmail {
                 position: relative;
-                right: 30px;
+                right: 45px;
             }
             #images {
                 position: relative;
-                right: 25px;
+                right: 35px;
             }
             #applications {
                 position: relative;
                 right: 25px;
+                bottom: 4px;
             }
-            #sign-in {
-                padding: 5px  5px 5px 5px;
+            #signin-button {
+                padding: 5px 5px 5px 5px;
                 position: relative;
-                right: 25px;
+                right: 15px;
+                bottom: 6px;
                 color: white;
-                background-color: rgb(82, 139, 209);
+                background-color: #4285f4;
+                border-color: transparent;
             }
             .footer {
                 background-color: rgb(242, 242, 242);
@@ -61,7 +64,7 @@
                 flex-direction: row;
                 justify-content: space-between;
                 position: relative;
-                top: 28em;
+                top: 39em;
             }
             .left-footer {
                 display: flex;
@@ -104,14 +107,14 @@
             }
             .search-bar {
                 position: relative;
-                top: 12em;
-                left: 30em;
+                top: 10em;
+                left: 46em;
                 border-color: transparent;
                 
             }
             #searchbar {
-                width: 700px;
-                height: 40px;
+                width: 560px;
+                height: 39px;
                 border-radius: 30px;
                 border: 1px solid silver
             }
@@ -120,21 +123,44 @@
             }
             .image {
                 position: relative;
-                top: 10em;
-                left:40em;
+                top: 8em;
+                left:56em;
                 width: 272px;
                 height: 92px;
                 padding-top: 109px;
             }
+    
             #mic {
                 position: relative;
                 bottom: 35px;
-                left: 550px;
+                left: 360px;
             }
             #search-icon {
                 position: relative;
                 bottom: 32px;
-                right: 122px;
+                right: 180px;
+            }
+            #google-search {
+                /*border-color: rgb(198, 198, 198);*/
+                color: #3c4043;
+                border-color: transparent;
+                position: relative;
+                left: 100px;
+                top: 30px;
+                background-color: rgb(242, 242, 242);
+                height: 36px;
+                width: 160px;
+            }
+            #lucky {
+                /*border-color: rgb(198, 198, 198);*/
+                color: #3c4043;
+                border-color: transparent;
+                position: relative;
+                left: 60px;
+                top: 30px;
+                background-color: rgb(242, 242, 242);
+                height: 36px;
+                width: 160px;
             }
         </style>
     </head>
@@ -143,26 +169,26 @@
             <div class="header">
                 <div class="left-header">
                     <div id="about">
-                        <a href="#">About</a>
+                        About
                     </div>
                     <div id="store">
-                        <a href="%">Store</a>
+                        Store
                     </div>
                 </div>
                 <div class="right-header">
                     <div id="gmail">
-                        <a href="#">Gmail</a>
+                        Gmail
                     </div>
                     <div id="images">
-                        <a href="#">Images</a>
+                        Images
                     </div>
                     <div id="applications">
-                        <a href="#"><i class="material-icons">
+                        <i class="material-icons">
                             apps
-                        </i></a>
+                        </i>
                     </div>
                     <div id="sign-in">
-                        Sign In
+                        <button id="signin-button">Sign In</button>
                     </div>
                 </div>
             </div>
@@ -185,24 +211,24 @@
             <div class="footer">
                 <div class="left-footer">
                     <div id="advertising">
-                        <a href="#">Advertising</a>
+                        Advertising
                     </div> 
                     <div id="business">
-                        <a href="$">Business</a>
+                        Business
                     </div>
                     <div id="how-works">
-                        <a href="$">How Search Works</a>
+                        How Search Works
                     </div>
                 </div>
                 <div class="right-footer">
                     <div id="privacy">
-                        <a href="#">Privacy</a>
+                        Privacy
                     </div>
                     <div id="terms">
-                        <a href="&">Terms</a>
+                        Terms
                     </div>
                     <div id="settings">
-                        <a href="*">Settings</a>
+                        Settings
                     </div>
                 </div>
             </div>
